@@ -1,0 +1,15 @@
+version: "3"
+services:
+  node:
+    build:
+      context: .
+      dockerfile: ./container/Dockerfile
+    volumes:
+      - ./src:/var/www/application
+    tty: true
+    command: yarn dev
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - '3000:3000'
+      - '24678:24678' # 追加

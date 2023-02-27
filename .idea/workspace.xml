@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50abe582-cb37-4d64-bdde-4707b01e13ad" name="Changes" comment="Talk機能で誰も選択されていない時は白紙の画面になるようにした" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2E9Nmm4NPDWHtPseWlMF7sTIy8h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/nagamatsu-ko/docker/Laravel/building",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "ts.external.directory.path": "/Users/nagamatsu-ko/docker/Laravel/building/src/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components/Dashbord/SettingDelivery/template" />
+      <recent name="$PROJECT_DIR$/src/pages/dashboard/template" />
+      <recent name="$PROJECT_DIR$/src/pages/dashboard/multimail" />
+      <recent name="$PROJECT_DIR$/src/components/Dashbord/SettingDelivery/multimail" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/building" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/public" />
+      <recent name="$PROJECT_DIR$/src/pages/dashboard/template" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50abe582-cb37-4d64-bdde-4707b01e13ad" name="Changes" comment="" />
+      <created>1662004002621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662004002621</updated>
+      <workItem from="1662004005751" duration="13304000" />
+      <workItem from="1662077196972" duration="97000" />
+      <workItem from="1662077317093" duration="122000" />
+      <workItem from="1662077457819" duration="28142000" />
+      <workItem from="1662180723750" duration="16328000" />
+      <workItem from="1662356186807" duration="27910000" />
+      <workItem from="1662694514931" duration="40000" />
+      <workItem from="1663816361509" duration="1274000" />
+      <workItem from="1664252558301" duration="1511000" />
+      <workItem from="1665965689771" duration="786000" />
+      <workItem from="1665973711561" duration="20300000" />
+      <workItem from="1666056924684" duration="258000" />
+      <workItem from="1666057187400" duration="841000" />
+      <workItem from="1666058091315" duration="457000" />
+      <workItem from="1666058569164" duration="377000" />
+      <workItem from="1666059539222" duration="13707000" />
+      <workItem from="1666253007383" duration="10561000" />
+      <workItem from="1666322162503" duration="5712000" />
+      <workItem from="1666333622662" duration="18075000" />
+      <workItem from="1666569327939" duration="8531000" />
+      <workItem from="1666589793126" duration="27180000" />
+      <workItem from="1667807483620" duration="1857000" />
+      <workItem from="1667896913949" duration="97000" />
+      <workItem from="1669075587915" duration="1359000" />
+      <workItem from="1671497186209" duration="4371000" />
+      <workItem from="1673588230398" duration="17520000" />
+      <workItem from="1673696043678" duration="25000" />
+      <workItem from="1673824304045" duration="3422000" />
+      <workItem from="1676346155270" duration="4437000" />
+      <workItem from="1676527661009" duration="3932000" />
+      <workItem from="1677026086979" duration="28576000" />
+    </task>
+    <task id="LOCAL-00001" summary="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
+      <created>1662366027476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662366027476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Talk機能で誰も選択されていない時は白紙の画面になるようにした" />
+    <option name="LAST_COMMIT_MESSAGE" value="Talk機能で誰も選択されていない時は白紙の画面になるようにした" />
+  </component>
+</project>
