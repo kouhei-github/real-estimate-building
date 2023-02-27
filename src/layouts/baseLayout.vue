@@ -8,7 +8,7 @@
           <PageHeader />
         </div>
         <!--   サイドバーとメイン     -->
-        <div class="w-1/2 mx-auto">
+        <div class="w-5/6 mx-auto">
           <slot />
         </div>
         <div class="w-5/6 py-2 mx-auto mt-8">
