@@ -13,3 +13,8 @@ services:
     ports:
       - '3000:3000'
       - '24678:24678' # 追加
+    networks:
+      - front
+networks:
+    front: # docker network create front
+        external: true
