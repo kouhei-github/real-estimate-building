@@ -21,13 +21,12 @@ services:
       - db
     networks:
       - front
-      - back
 
   db:
     image: 'jc21/mariadb-aria:latest'
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 'YSQL_ROOT_PASSWORD'
+      MYSQL_ROOT_PASSWORD: 'MYSQL_ROOT_PASSWORD'
       MYSQL_DATABASE: 'MYSQL_DB_NAME'
       MYSQL_USER: 'MYSQL_USER'
       MYSQL_PASSWORD: 'MYSQL_PASSWORD'
