@@ -14,14 +14,14 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      title: 'Nuxt3 Admin Dashboard',
-      titleTemplate: '%s - composition api',
+        title: 'あなたに合った賃貸物件を!!',
+        titleTemplate: 'あなたに合った賃貸物件を!!',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: 'Nuxt3 Admin Dashboard',
+            content: 'あなたに合った賃貸物件の紹介',
         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
