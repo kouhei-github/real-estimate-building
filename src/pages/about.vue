@@ -5,7 +5,7 @@ definePageMeta({
 
 </script>
 <template>
-  <div class="mt-12 w-full">
+  <div class="mt-12 w-2/3 mx-auto">
     <div class="w-full">
       <p class="flex flex-col text-right my-4">
         <span>情報登録日：2023/02/24 </span>
