@@ -1,1 +1,8 @@
 .env
+nginx-proxy/data
+nginx-proxy/letsencrypt
+nginx-proxy/mysql
+/nginx-proxy/data
+/nginx-proxy/letsencrypt
+/nginx-proxy/mysql
+
