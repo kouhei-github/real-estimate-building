@@ -24,7 +24,7 @@ export default defineNuxtConfig({
             content: 'あなたに合った賃貸物件の紹介',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/coldrain.jpg' }],
     },
   },
 
