@@ -5,9 +5,9 @@ definePageMeta({
 
 </script>
 <template>
-  <div class="mt-20 w-full">
-    <div class="w-full ">
-      <p class="flex items-center justify-around">
+  <div class="mt-12 w-full">
+    <div class="w-full">
+      <p class="flex flex-col text-right my-4">
         <span>情報登録日：2023/02/24 </span>
         <span>情報更新日：2023/02/24</span>
         <span>掲載期限：2023/03/09 (あと<span class="countNum">13</span>日)</span>
@@ -37,22 +37,22 @@ definePageMeta({
         <div class="w-full">
           <table class="w-5/6 mx-auto my-8">
             <tbody><tr class="is-supplementExistence">
-              <th class="border bg-[#eef6f6] text-lg px-1 pt-1">価格</th>
-              <td class="border text-lg text-center py-1"><strong>620万円</strong>
-                <span class="">平米単価：15.25万円</span>
+              <th class="border bg-[#eef6f6] text-lg pt-1">価格</th>
+              <td class="border text-lg pl-12 py-1"><strong>620万円</strong>
+                <span class="pl-4">平米単価：15.25万円</span>
               </td>
-              <th class="border bg-[#eef6f6] text-lg px-1 pt-1">利回り</th>
-              <td class="border text-lg text-center py-1"><strong>未定</strong></td>
+              <th class="border bg-[#eef6f6] text-lg pt-1">利回り</th>
+              <td class="border text-lg pl-12 py-1"><strong>未定</strong></td>
             </tr>
             <tr>
-              <th class="border bg-[#eef6f6] text-lg px-1 pt-1">住所</th>
-              <td class="border text-lg text-center py-1" colspan="3">
+              <th class="border bg-[#eef6f6] text-lg pt-1">住所</th>
+              <td class="border text-lg pl-12 py-1" colspan="3">
                 兵庫県姫路市琴岡町
               </td>
             </tr>
             <tr>
               <th class="border bg-[#eef6f6] text-lg px-1 pt-1">交通</th>
-              <td class="border text-lg text-center py-1" colspan="3">
+              <td class="border text-lg pl-12 py-1" colspan="3">
                 山陽電鉄本線 山陽姫路駅 徒歩21分<br>JR東海道・山陽本線 姫路駅 徒歩23分
                 <a href="http://transit.homes.jp/expwww/route.cgi?lndmk=%8B%D5%89%AA%83r%83%8B&amp;lndst=26385,26524&amp;lndtr=%93k%95%E021%95%AA,%93k%95%E023%95%AA&amp;lndtm=21,23" target="_blank">乗換案内</a>
               </td>
@@ -69,7 +69,7 @@ definePageMeta({
             </div>
           </div><!-- /viewArea -->
 
-          <div class="w-1/2 border border-black mr-3 mx-auto" data-box-size="12">
+          <div class="w-1/2 border border-black mr-3 pt-3 mx-auto" data-box-size="12">
             <ul class="grid grid-cols-3 mx-auto gap-1" id="photobox_1" data-box-number="1">
 
               <li class="w-30 h-30 m-auto">
@@ -301,8 +301,8 @@ definePageMeta({
       <h3 class="border-l-5 pl-5 w-11/12 mx-auto my-5 text-xl font-bold border-orange-600">詳細項目</h3>
       <table class="w-11/12 mx-auto my-5">
         <tbody><tr class="inqFlame">
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1">表面利回り</th>
-          <td colspan="3">
+          <th class="border bg-[#eef6f6] text-[15px] px-1 pt-1">表面利回り</th>
+          <td colspan="3" class="text-[15px] py-2 pl-2 border leading-6">
             <div class="contents">
               <span class="percentage">未定</span>
               <div class="specificInquiry">
@@ -318,58 +318,58 @@ definePageMeta({
         </tr>
 
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>築年月</span></th>
-          <td class="period">1966年01月</td>
-          <th class="second"><span>間取り</span></th>
-          <td class="madori">3K</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>築年月</span></th>
+          <td class="period text-[15px] py-2 pl-2">1966年01月</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>間取り</span></th>
+          <td class="madori text-[15px] py-2 pl-2">3K</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>総区画／戸数</span></th>
-          <td class="border text-lg text-center py-1">-</td>
-          <th class="second"><span>事務所戸数</span></th>
-          <td class="border text-lg text-center py-1">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>総区画／戸数</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>事務所戸数</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>管理費等</span></th>
-          <td class="kanri_str">1,000円</td>
-          <th class="second"><span>修繕積立金</span></th>
-          <td class="border text-lg text-center py-1">1,600円</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>管理費等</span></th>
+          <td class="kanri_str text-[15px] py-2 pl-2">1,000円</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>修繕積立金</span></th>
+          <td class="border text-[15px] py-2 pl-2">1,600円</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>主要採光面</span></th>
-          <td class="border text-lg text-center py-1">南</td>
-          <th class="second"><span>バルコニー面積</span></th>
-          <td class="border text-lg text-center py-1">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>主要採光面</span></th>
+          <td class="border text-[15px] py-2 pl-2">南</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>バルコニー面積</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>建物構造</span></th>
-          <td class="border text-lg text-center py-1">RC(鉄筋コンクリート)</td>
-          <th class="second"><span>所在階／階数</span></th>
-          <td class="border text-lg text-center py-1">4階／4階建</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>建物構造</span></th>
+          <td class="border text-[15px] py-2 pl-2">RC(鉄筋コンクリート)</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>所在階／階数</span></th>
+          <td class="border text-[15px] py-2 pl-2">4階／4階建</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>駐車場</span></th>
-          <td class="border text-lg text-center py-1">空無</td>
-          <th class="second"><span>土地権利</span></th>
-          <td class="border text-lg text-center py-1">所有権</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>駐車場</span></th>
+          <td class="border text-[15px] py-2 pl-2">空無</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>土地権利</span></th>
+          <td class="border text-[15px] py-2 pl-2">所有権</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>都市計画</span></th>
-          <td class="border text-lg text-center py-1">市街化区域</td>
-          <th class="second"><span>地目</span></th>
-          <td class="border text-lg text-center py-1">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>都市計画</span></th>
+          <td class="border text-[15px] py-2 pl-2">市街化区域</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>地目</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>建ぺい率／容積率</span></th>
-          <td class="border text-lg text-center py-1">-</td>
-          <th class="second"><span>国土法届出</span></th>
-          <td class="border text-lg text-center py-1">不要</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>建ぺい率／容積率</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>国土法届出</span></th>
+          <td class="border text-[15px] py-2 pl-2">不要</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>用途地域</span></th>
-          <td class="recital">商業地域</td>
-          <th class="second"><span>引渡</span></th>
-          <td class="border text-lg text-center py-1">相談</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>用途地域</span></th>
+          <td class="border text-[15px] recital py-2 pl-2">商業地域</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>引渡</span></th>
+          <td class="border text-[15px] py-2 pl-2">相談</td>
         </tr>
         <tr>
         </tr>
@@ -383,8 +383,8 @@ definePageMeta({
         </tr>
 
         <tr class="inqFlame">
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1">現況</th>
-          <td colspan="3">
+          <th class="border bg-[#eef6f6] text-[15px] pt-1">現況</th>
+          <td colspan="3" class="border text-[15px] py-2 pl-2 leading-6">
             <div class="contents">
               <span>空家</span>
               <div class="specificInquiry">
@@ -399,36 +399,36 @@ definePageMeta({
           </td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>専有面積</span></th>
-          <td colspan="3">40.66㎡</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>専有面積</span></th>
+          <td colspan="3" class="border text-[15px] py-2 pl-2">40.66㎡</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>満室想定年収</span></th>
-          <td colspan="3" class="fullIncome">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>満室想定年収</span></th>
+          <td colspan="3" class="fullIncome border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>設備・条件</span></th>
-          <td colspan="3" class="facility">公営水道、都市ガス、下水</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>設備・条件</span></th>
+          <td colspan="3" class="facility border text-[15px] py-2 pl-2">公営水道、都市ガス、下水</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>備考</span></th>
-          <td colspan="3" class="recital">準防火 <br>船場小学校まで約530ｍ、琴陵中学校まで約460ｍとお子様の通学も安心です</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>備考</span></th>
+          <td colspan="3" class="recital border text-[15px] py-2 pl-2 leading-6">準防火 <br>船場小学校まで約530ｍ、琴陵中学校まで約460ｍとお子様の通学も安心です</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>建築確認番号</span></th>
-          <td colspan="3">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>建築確認番号</span></th>
+          <td colspan="3" class="border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>管理形態</span></th>
-          <td class="border text-lg text-center py-1">自主管理</td>
-          <th class="second"><span>管理会社</span></th>
-          <td class="border text-lg text-center py-1">-</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>管理形態</span></th>
+          <td class="border text-[15px] py-2 pl-2">自主管理</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>管理会社</span></th>
+          <td class="border text-[15px] py-2 pl-2">-</td>
         </tr>
         <tr>
-          <th class="border bg-[#eef6f6] text-lg px-1 pt-1"><span>管理その他</span></th>
-          <td class="border text-lg text-center py-1">管理人/無・管理組合/有</td>
-          <th class="second"><span>態様</span></th>
-          <td class="border text-lg text-center py-1">仲介</td>
+          <th class="border bg-[#eef6f6] text-[15px] pt-1"><span>管理その他</span></th>
+          <td class="border text-[15px] py-2 pl-2">管理人/無・管理組合/有</td>
+          <th class="second border bg-[#eef6f6] text-[15px] pt-1"><span>態様</span></th>
+          <td class="border text-[15px] py-2 pl-2">仲介</td>
         </tr>
 
         </tbody>

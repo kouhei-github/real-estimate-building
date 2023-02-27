@@ -22,8 +22,8 @@ definePageMeta({
                 <span class="w-2/3 mx-auto text-left font-bold text-black">お問合せ内容</span>
                 <label class="w-max px-3 py-1 mx-auto text-left bg-[#ed6103] text-white font-bold">必須</label>
             </div>
-            <div class="w-2/3 mx-auto border-l px-5 py-3 bg-[#fffddd]">
-                <div class="grid grid-cols-2 gap-5">
+            <div class="w-2/3 mx-auto border-l px-5 bg-[#fffddd]">
+                <div class="grid grid-cols-2 gap-2 pt-5 pb-3">
                     <div class="flex items-center space-x-3">
                         <input type="checkbox" />
                         <label>最新の情報を知りたい</label>
@@ -45,8 +45,8 @@ definePageMeta({
                 <span class="w-2/3 mx-auto text-left font-bold text-black">お名前</span>
                 <label class="w-max px-3 py-1 mx-auto text-center bg-[#ed6103] text-white font-bold">必須</label>
             </div>
-            <div class="w-2/3 mx-auto border-l px-5 py-3 bg-[#fffddd]">
-                <input type="text" class="w-2/3 border rounded" placeholder="例: 山田太郎" />
+            <div class="w-2/3 mx-auto border-l p-5 bg-[#fffddd]">
+                <input type="text" class="w-5/6 border rounded" placeholder="例: 山田太郎" />
             </div>
         </div>
         <div class="flex items-center w-3/4 mx-auto border-t border-x border-black">
@@ -59,11 +59,11 @@ definePageMeta({
             </div>
             <div class="w-2/3 mx-auto border-l px-5 py-3 space-y-5 bg-[#fffddd]">
                 <div class="flex items-center">
-                    <label class="w-1/3 ">メールアドレス</label>
+                    <label class="w-1/6">メールアドレス</label>
                     <input type="text" class="w-2/3 border rounded" placeholder="例: yamada_t@sample.co.jp" />
                 </div>
                 <div class="flex items-center">
-                    <label class="w-1/3 ">電話番号</label>
+                    <label class="w-1/6">電話番号</label>
                     <input type="text" class="w-2/3 border rounded" placeholder="例: 08099998888 (ハイフン不要)" />
                 </div>
             </div>
@@ -83,7 +83,7 @@ definePageMeta({
         </div>
         <div class="flex items-center w-3/4 mx-auto border border-black">
             <div class="flex w-1/3 mx-auto items-center">
-                <span class="text-left font-bold text-black ml-3">弊社かのお知らせ</span>
+                <span class="text-left font-bold text-black ml-3">弊社からのお知らせ</span>
             </div>
             <div class="w-2/3 mx-auto border-l px-5 py-3">
                 <div class="flex items-center space-x-3">
