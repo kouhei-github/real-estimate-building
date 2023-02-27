@@ -15,7 +15,7 @@ definePageMeta({
 
       <p class="w-full text-right">
         <span class="text-indigo-700 underline cursor-pointer text-right w-full">
-            <a >印刷する</a>
+        <a>印刷する</a>
         </span>
       </p>
 
