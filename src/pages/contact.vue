@@ -57,7 +57,7 @@ definePageMeta({
                 </div>
                 <p class="text-sm ml-3">※いずれか1つ以上</p>
             </div>
-            <div class="w-2/3 mx-auto border-l px-5 py-3 space-y-5 bg-[#fffddd]">
+            <div class="w-2/3 mx-auto border-l p-5 space-y-5 bg-[#fffddd]">
                 <div class="flex items-center">
                     <label class="w-1/6">メールアドレス</label>
                     <input type="text" class="w-2/3 border rounded" placeholder="例: yamada_t@sample.co.jp" />
