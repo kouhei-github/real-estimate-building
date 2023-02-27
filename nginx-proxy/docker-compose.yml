@@ -21,6 +21,7 @@ services:
       - db
     networks:
       - front
+      - back
 
   db:
     image: 'jc21/mariadb-aria:latest'
