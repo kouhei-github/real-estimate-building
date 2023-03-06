@@ -1,63 +1,9 @@
 version: "3"
 services:
-  api:
-    build:
-      context: .
-      dockerfile: ./.docker/laravel/Dockerfile
-    # portを9000にする。Nginxとの兼ね合い
-    ports:
-      - "8000:8000" # このPORTとNginx Proxy Managerの「Dashboard > Proxy Host > Add Proxy Host」の Forwad portを合わせる
-    volumes:
-      - ./backend:/var/www/app
-    working_dir: /var/www/app
-#    command: php artisan serve --host 0.0.0.0
-    tty: true
-    restart: always
-    depends_on:
-      - db
-    links:
-      - db
-    networks:
-      - front
-      - back
-
-  db:
-    image: mysql:5.7
-    container_name: real_estimate_db
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: real_estimate
-      MYSQL_USER: koHeiEstimate
-      MYSQL_PASSWORD: tc!mGY&5%98
-      TZ: 'Asia/Tokyo'
-    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
-    volumes:
-      - ./.docker/mysql/data:/var/lib/mysql
-      - ./.docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
-      - ./.docker/mysql/sql:/docker-entrypoint-initdb.d
-    ports:
-      - "3306:3306"
-    networks:
-      - back
-
-  # phpMyAdmin
-  phpmyadmin:
-    container_name: real_estimate_phpmyadmin
-    image: phpmyadmin/phpmyadmin
-    environment:
-      - PMA_ARBITRARY=1
-      - PMA_HOSTS=real_estimate_db
-      - PMA_USER=root
-      - PMA_PASSWORD=root
-    ports:
-      - "8080:80"
-    networks:
-      - back
-
   node:
     build:
       context: .
-      dockerfile: ./container/Dockerfile
+      dockerfile: container/front/Dockerfile
     volumes:
       - ./src:/var/www/application
     tty: true
@@ -69,8 +15,6 @@ services:
       - '24678:24678' # 追加
     networks:
       - front
-      - back
 networks:
   front: # docker network create front
     external: true
-  back: # docker network create back

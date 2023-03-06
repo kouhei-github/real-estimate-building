@@ -6,3 +6,4 @@ nginx-proxy/mysql
 /nginx-proxy/letsencrypt
 /nginx-proxy/mysql
 
+/container/mysql
