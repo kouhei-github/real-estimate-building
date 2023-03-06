@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50abe582-cb37-4d64-bdde-4707b01e13ad" name="Changes" comment="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
-      <change afterPath="$PROJECT_DIR$/container/api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container/api/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_2023_03_06_12_13_c.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container/front/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +79,9 @@
       <command value="artisan migrate" />
       <command value="artisan migrate:status" />
       <command value="artisan route:list" />
+      <command value="composer require laravel/sanctum" />
+      <command value="c require laravel/sanctum" />
+      <command value="artisan vendor:publish --provider=&quot;Laravel\Sanctum\SanctumServiceProvider&quot;" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -127,7 +124,7 @@
       <workItem from="1676527661009" duration="3932000" />
       <workItem from="1677026086979" duration="28576000" />
       <workItem from="1678067676997" duration="495000" />
-      <workItem from="1678068236292" duration="4370000" />
+      <workItem from="1678068236292" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
       <created>1662366027476</created>
