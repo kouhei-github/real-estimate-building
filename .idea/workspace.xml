@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50abe582-cb37-4d64-bdde-4707b01e13ad" name="Changes" comment="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_2023_03_06_12_13_c.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Domain/UserDomain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/Interfaces/UserRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/UseCases/Interfaces/UserRegisterUseCaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/UseCases/UserRegisterUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_2023_03_06_12_12_artisan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_2023_03_06_12_12_artisan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +95,18 @@
       <command value="composer require laravel/sanctum" />
       <command value="c require laravel/sanctum" />
       <command value="artisan vendor:publish --provider=&quot;Laravel\Sanctum\SanctumServiceProvider&quot;" />
+      <command value="artisan make:controller AuthController" />
+      <command value="artisan make:useCase UserRegisterUseCase" />
+      <command value="artisan make:useCaseInterface UserRegisterUseCaseInterface" />
+      <command value="artisan make:repository UserRepository" />
+      <command value="artisan make:repositoryInterface UserRepositoryInterface" />
+      <command value="c require --dev barryvdh/laravel-ide-helper" />
+      <command value="c require --dev doctrine/dbal" />
+      <command value="artisan make:controller LoginController" />
+      <command value="artisan make:useCase LoginUseCase" />
+      <command value="artisan make:useCaseInterface LoginUseCaseInterface" />
+      <command value="artisan make:service SecurityHubService" />
+      <command value="artisan make:serviceInterface SecurityHubServiceInterface" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -124,7 +149,7 @@
       <workItem from="1676527661009" duration="3932000" />
       <workItem from="1677026086979" duration="28576000" />
       <workItem from="1678067676997" duration="495000" />
-      <workItem from="1678068236292" duration="4902000" />
+      <workItem from="1678068236292" duration="11969000" />
     </task>
     <task id="LOCAL-00001" summary="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
       <created>1662366027476</created>

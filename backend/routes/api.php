@@ -14,6 +14,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::middleware('auth:sanctum')->get('/v1/user', function (Request $request) {
     return $request->user();
 });
+
+// ログイン
+Route::match(
+    ['post',],
+    'v1/login',
+    [\App\Http\Controllers\LoginController::class, 'switchHttpRequest']
+);
+
+// Userの登録
+Route::match(
+    ['post', 'put'],
+    'v1/register',
+    [\App\Http\Controllers\AuthController::class, 'switchHttpRequest']
+);
+
+// サンプル
+Route::match(
+    ['get', 'post', "put", "delete"],
+    'v1/user',
+    [\App\Http\Controllers\AuthController::class, 'switchHttpRequest']
+)->middleware('auth:sanctum');
