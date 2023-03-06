@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="50abe582-cb37-4d64-bdde-4707b01e13ad" name="Changes" comment="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,7 +110,8 @@
       <workItem from="1676346155270" duration="4437000" />
       <workItem from="1676527661009" duration="3932000" />
       <workItem from="1677026086979" duration="28576000" />
-      <workItem from="1678067676997" duration="92000" />
+      <workItem from="1678067676997" duration="495000" />
+      <workItem from="1678068236292" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Talk機能で誰も選択されていない時は白紙の画面になるようにした">
       <created>1662366027476</created>
