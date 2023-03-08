@@ -32,6 +32,21 @@ Route::match(
     [\App\Http\Controllers\AuthController::class, 'switchHttpRequest']
 );
 
+// 記事に関わるエンドポイント
+Route::match(
+    ['get'],
+    'v1/article',
+    [\App\Http\Controllers\ArticleController::class, 'switchHttpRequest']
+);
+
+// 記事に関わるエンドポイント
+Route::match(
+    ['post', "put", "delete"],
+    'v1/article',
+    [\App\Http\Controllers\ArticleController::class, 'switchHttpRequest']
+)->middleware('auth:sanctum');
+
+
 // サンプル
 Route::match(
     ['get', 'post', "put", "delete"],
